@@ -3,13 +3,16 @@
 - [📘 How to use](https://zenn.dev/zenn/articles/zenn-cli-guide)
 
 👇 新しい記事を作成する  
-$ zenn new:article
+$ npx zenn new:article
+
+※slugを指定したい場合はオプションを付与することが可能  
+$ npx zenn new:article --slug [slugId]
 
 👇 新しい本を作成する  
-$ zenn new:book
+$ npx zenn new:book
 
 👇 投稿をプレビューする  
-$ zenn preview
+$ npx zenn preview
 
 ## 参考資料
 
